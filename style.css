@@ -1,0 +1,32 @@
+/* id 선택자 > 클래스 선택자 > 태그 선택자*/ 
+body{
+    margin:0;
+}
+a{
+    color:pink;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    font-size: 45px;
+    border-bottom:1px solid pink;
+    margin:0;
+    padding:20px;
+}
+ol{
+    border-right:1px solid pink;
+    width:100px;
+    margin:0;
+    padding:20px;
+}
+#grid{
+    display:grid;
+    grid-template-columns: 150px 1fr;
+}
+#grid ol{
+    padding-left:33px;
+    padding-right:10px;
+}
+#article{
+    padding-left:25px;
+}
